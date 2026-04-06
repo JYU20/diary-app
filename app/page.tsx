@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,6 +17,16 @@ export default function Home() {
           >
             <span>Begin now!</span>
           </Link>
+        </div>
+        <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
+        <Image
+        src="/img/hero-desktop.png"
+        alt="Hero"
+        width={1000}
+        height={620}
+        sizes="(max-width: 768px) 560px, 1000px"
+        priority
+        />
         </div>
       </div>
     </main>
