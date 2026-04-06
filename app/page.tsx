@@ -8,10 +8,10 @@ export default function Home(){
         <p className="text-xl text-gray-800 md:text-3xl md:leadding-normal">
           <strong>Huma, our beloved son is the cuttest in the whole world!</strong>
           <br />
-          We are going to share his cuteness between us!
+          We are going to share his cuteness on this app!
         </p>
         <div className="flex items-center gap-5 self-start rounded-lg bg-blue-800 px-6 py-3 text-sm font-medium text-white hover:bg-blue-600">
-          <span>Let's share his cuteness now!</span>
+          <span>Lets share his cuteness now!</span>
         </div>
         </div>
       </div>
