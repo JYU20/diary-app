@@ -24,9 +24,18 @@ export default function Home() {
         alt="Hero"
         width={1000}
         height={620}
-        sizes="(max-width: 768px) 560px, 1000px"
+        className="hidden md:block"
         priority
         />
+        <Image
+        src="/img/hero-mobile.png"
+        alt="Hero"
+        width={560}
+        height={760}
+        className="block md:hidden"
+        >
+
+        </Image>
         </div>
       </div>
     </main>
