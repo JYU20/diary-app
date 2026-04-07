@@ -10,12 +10,12 @@ export default function layout({
 {
     return(
         <div className="min-h-screen bg-gray-100">
-            <nav className="border-gray-100 bg-white">
+            <nav className="border-b-10 border-gray-100 bg-white">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         <div className="flex">
                             <div className="flex shrink-0 items-center">
-                                <Image src="/logo.png" width={80} height={30} alt="logo"/>
+                                <Image src="/logo/logo.png" width={80} height={30} alt="logo"/>
                             </div>
                         </div>
                     <div className="space-x-8">
