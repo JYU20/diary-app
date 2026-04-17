@@ -22,9 +22,6 @@ export default function layout({
                         <Link href="/login" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                         ログイン
                         </Link>
-                        <Link href="/register" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
-                        会員登録
-                        </Link>
                         <Link href="/dashboard" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                         ダッシュボード
                         </Link>
