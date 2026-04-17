@@ -12,8 +12,8 @@ export default async function Dashboard() {
           <Image
             className="block aspect-[1/1] size-24 rounded-full object-cover"
             src={user.image}
-            width={96}
-            height={96}
+            width={97}
+            height={97}
             alt="user icon"
           />
         )}
