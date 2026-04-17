@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import IconSkeleton from "@/components/IconSkeleton";
 
-async function Dashboard() {
+export default async function Dashboard() {
   const user = await fetchDashboard();
   return (
     <div className="mx-auto max-w-5xl">
