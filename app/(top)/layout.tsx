@@ -26,7 +26,7 @@ export default function layout({
                         会員登録
                         </Link>
                         <Link href="/dashboard" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
-                            ダッシュボード
+                        ダッシュボード
                         </Link>
                     </div>
                     </div>
