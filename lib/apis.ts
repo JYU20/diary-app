@@ -23,7 +23,7 @@ export async function fetchDashboard() {
   }
 }
 
-export async function fetxhLatestPosts(){
+export async function fetchLatestPosts(){
   try{
     return await prisma.post.findMay({
       select:{
