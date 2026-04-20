@@ -4,7 +4,7 @@ import Image from "next/image";
 
 
 
-async function Posts() {
+export default async function Posts() {
   const posts = await fetchLatestPosts();
   return (
     <div className="mx-auto my-8 max-w-5xl bg-white">
