@@ -9,7 +9,7 @@ export default async function Posts() {
   return (
     <div className="mx-auto my-8 max-w-5xl bg-white">
       <div className="grid grid-cols-3 gap-1">
-        {posts.map((post) => {
+        {posts.map((post: any) => {
           return (
             <Link key={post.id} href={`/posts/${post.id}`}>
               <Image
